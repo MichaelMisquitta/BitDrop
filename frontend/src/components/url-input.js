@@ -17,9 +17,9 @@ class UrlInput extends React.Component {
     }    
     
     sendData(event) {
-        var xhr = new XMLHttpRequest()
-        xhr.open('POST', '')
-        xhr.send(JSON.stringify({ url: this.state.value }))
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', '');
+        xhr.send(JSON.stringify({ url: this.state.value }));
     }
 
     componentDidMount(){
